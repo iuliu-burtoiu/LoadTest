@@ -2,7 +2,6 @@ require "./myapp/mymodules/ibu_exceptions.rb"
 require "thwait"
 require "socket"
 require "uri/generic"
-require "./myapp/mymodules/attr_logger.rb"
 require "optparse"
 require 'httpclient'
 
@@ -11,8 +10,6 @@ class LoadTest
     #CONSTANTS
     LOG_FILE_PATH = "/myapp/LoadTest.txt"
     LOG_STRING_BUILDER = StringIO.new
-
-    include AttrLogger
 
     #CONSTRUCTOR
     def initialize(concurency_level, total_requests_count, url, json_payload = "")
