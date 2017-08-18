@@ -1,0 +1,14 @@
+Server Software:           gws
+Server Hostname:           google.com
+Server Port:               80
+Http Method:               POST
+Concurency level:          10
+Time taken for tests:      1.058 seconds
+Complete requests:         100
+Failed requests:           0
+HTML transferred:          158500.0 bytes
+Requests per second:       50.0 [#/sec] (mean)
+Time per request:          0.535 [ms] (mean)
+Transfer rate:             79.25[Kbytes/sec] received
+Document Path:             /myapp/LoadTest.txt
+Document Length:           0.385 kbytes
