@@ -17,4 +17,4 @@ parameters:
 
 
 OUTPUT:
-check Apached Benchmark output
+check Apache Benchmark output
